@@ -1,0 +1,65 @@
+.status {
+    text-align: center;
+    font-size: 1rem;
+    width: 100px;
+}
+
+.board {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.player, .winner {
+    font-weight: bold;
+}
+
+.b {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 2rem;
+}
+
+.board-row {
+    display: flex;
+    font-size: 0;
+}
+
+.b1 {
+    border-left: none;
+    border-top: none;
+}
+
+.b2 {
+    border-top: none;
+}
+
+.b3 {
+    border-right: none;
+    border-top: none;
+}
+
+.b4 {
+    border-left: none;
+}
+
+.b6 {
+    border-right: none;
+}
+
+.b7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+.b8 {
+    border-bottom: none;
+}
+
+.b9 {
+    border-right: none;
+    border-bottom: none;
+}
